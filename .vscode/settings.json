@@ -1,3 +1,9 @@
 {
-    "python.pythonPath": "C:\\Users\\User\\.virtualenvs\\DjangoTDD-ImKOM-xU\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\User\\.virtualenvs\\DjangoTDD-ImKOM-xU\\Scripts\\python.exe",
+    "python.testing.pytestArgs": [
+        "DjangoPytest"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }
