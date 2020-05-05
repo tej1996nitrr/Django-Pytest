@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=emulateIE7" />
-    <title>Coverage for DjangoPytest\birdie\tests\test_admin.py: 100%</title>
+    <title>Coverage for DjangoPytest\birdie\tests\test_admin.py: 62%</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="jquery.hotkeys.js"></script>
@@ -17,13 +17,13 @@
 <div id="header">
     <div class="content">
         <h1>Coverage for <b>DjangoPytest\birdie\tests\test_admin.py</b> :
-            <span class="pc_cov">100%</span>
+            <span class="pc_cov">62%</span>
         </h1>
         <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
         <h2 class="stats">
             13 statements &nbsp;
-            <span class="run shortkey_r button_toggle_run">13 run</span>
-            <span class="mis show_mis shortkey_m button_toggle_mis">0 missing</span>
+            <span class="run shortkey_r button_toggle_run">8 run</span>
+            <span class="mis show_mis shortkey_m button_toggle_mis">5 missing</span>
             <span class="exc show_exc shortkey_x button_toggle_exc">0 excluded</span>
         </h2>
     </div>
@@ -60,11 +60,11 @@
     <p id="t7" class="pln"><span class="n"><a href="#t7">7</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p id="t8" class="run"><span class="n"><a href="#t8">8</a></span><span class="t"><span class="key">class</span> <span class="nam">TestPostAdmin</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p id="t9" class="run"><span class="n"><a href="#t9">9</a></span><span class="t">    <span class="key">def</span> <span class="nam">test_excerpt</span><span class="op">(</span><span class="nam">self</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t10" class="run"><span class="n"><a href="#t10">10</a></span><span class="t">        <span class="nam">site</span> <span class="op">=</span> <span class="nam">AdminSite</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t11" class="run"><span class="n"><a href="#t11">11</a></span><span class="t">        <span class="nam">post_admin</span>  <span class="op">=</span> <span class="nam">admin</span><span class="op">.</span><span class="nam">PostAdmin</span><span class="op">(</span><span class="nam">Post</span><span class="op">,</span> <span class="nam">site</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t12" class="run"><span class="n"><a href="#t12">12</a></span><span class="t">        <span class="nam">obj</span> <span class="op">=</span> <span class="nam">mixer</span><span class="op">.</span><span class="nam">blend</span><span class="op">(</span><span class="str">'birdie.Post'</span><span class="op">,</span><span class="nam">body</span><span class="op">=</span><span class="str">"Hello World"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t13" class="run"><span class="n"><a href="#t13">13</a></span><span class="t">        <span class="nam">result</span> <span class="op">=</span> <span class="nam">post_admin</span><span class="op">.</span><span class="nam">excerpt</span><span class="op">(</span><span class="nam">obj</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p id="t14" class="run"><span class="n"><a href="#t14">14</a></span><span class="t">        <span class="key">assert</span> <span class="nam">result</span><span class="op">==</span><span class="str">"Hello"</span><span class="op">,</span><span class="str">"should return first few chars"</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t10" class="mis show_mis"><span class="n"><a href="#t10">10</a></span><span class="t">        <span class="nam">site</span> <span class="op">=</span> <span class="nam">AdminSite</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t11" class="mis show_mis"><span class="n"><a href="#t11">11</a></span><span class="t">        <span class="nam">post_admin</span>  <span class="op">=</span> <span class="nam">admin</span><span class="op">.</span><span class="nam">PostAdmin</span><span class="op">(</span><span class="nam">Post</span><span class="op">,</span> <span class="nam">site</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t12" class="mis show_mis"><span class="n"><a href="#t12">12</a></span><span class="t">        <span class="nam">obj</span> <span class="op">=</span> <span class="nam">mixer</span><span class="op">.</span><span class="nam">blend</span><span class="op">(</span><span class="str">'birdie.Post'</span><span class="op">,</span><span class="nam">body</span><span class="op">=</span><span class="str">"Hello World"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t13" class="mis show_mis"><span class="n"><a href="#t13">13</a></span><span class="t">        <span class="nam">result</span> <span class="op">=</span> <span class="nam">post_admin</span><span class="op">.</span><span class="nam">excerpt</span><span class="op">(</span><span class="nam">obj</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p id="t14" class="mis show_mis"><span class="n"><a href="#t14">14</a></span><span class="t">        <span class="key">assert</span> <span class="nam">result</span><span class="op">==</span><span class="str">"Hello"</span><span class="op">,</span><span class="str">"should return first few chars"</span>&nbsp;</span><span class="r"></span></p>
     <p id="t15" class="pln"><span class="n"><a href="#t15">15</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p id="t16" class="pln"><span class="n"><a href="#t16">16</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p id="t17" class="pln"><span class="n"><a href="#t17">17</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
@@ -73,7 +73,7 @@
     <div class="content">
         <p>
             <a class="nav" href="index.html">&#xab; index</a> &nbsp; &nbsp; <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.1</a>,
-            created at 2020-05-05 14:37
+            created at 2020-05-05 15:21
         </p>
     </div>
 </div>
