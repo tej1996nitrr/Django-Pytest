@@ -9,4 +9,9 @@ mixer helps us to create dummy values for multiple fields when we are focusing o
 pytestmark= pytest.mark.django_db -> pytest protects us from actually writing into the database. In pytest if you want to allow database access, you will have to mark it like this
 Error without above line: Database access not allowed, use the "django_db" mark, or the "db" or "transactional_db" fixtures to enable it.
 2.create coveragerc file to skip certain files from test
+3. To install mock, stripe:
+pipenv install mock stripe 
+or if using venv:
+pip install mock stripe 
+
 
