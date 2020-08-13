@@ -1,5 +1,5 @@
 # Django-Pytest
-A simple django application which focuses mainly on pytest and a test driven developement with django.
+A simple django application which focuses mainly on pytest and a test driven developement with django
 
 ## Requirements and packages
 1. django
