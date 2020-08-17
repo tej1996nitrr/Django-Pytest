@@ -19,7 +19,7 @@ A simple django application which focuses mainly on pytest and a test driven dev
 1. pytest
 2. pytest -v
 3. pytest --cov=. 
-4. pytest addopts = -v --nomigrations --cov=. --cov-report=html 
+4. pytest addopts = -v --nomigrations --cov=.   --cov-report=html 
 
 ## general decription
 1. https://github.com/tej1996nitrr/Django-Pytest/blob/master/DjangoPytest/desc.txt
